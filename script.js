@@ -16,8 +16,19 @@ async function getAPOD() {
     `https://api.nasa.gov/planetary/apod?api_key=${KEY}` + "&date=" + date
   );
   let main = await data.json();
+  console.log(main);
   let img = document.querySelector("img");
-  img.src = main.url;
+  let vid = document.querySelector("iframe");
+  if (main.media_type == "image") {
+    vid.classList.remove("active");
+    img.classList.add("active");
+    img.src = main.url;
+  } else {
+    vid.classList.add("active");
+    img.classList.remove("active");
+    vid.src = "";
+    vid.src = main.url;
+  }
 }
 
 const button = document.querySelector(".btn");
