@@ -18,8 +18,6 @@ Two main purposes of the JS file:
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those _whoa this is awesome_ or _fuck yeah I did it!_ moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
-
 The purpose of this project was to build an app from scratch without the use of templates. With only my current knowledge and google searches, I successfully built this app!
 
 Setting the default date was the first roadblock I encountered. The API's date property required a formatted date of 'YYYY-MM-dd', so I converted today's date to a the required format. I'm sure there's a simpler way to get this done but here's my code in all it's glory:
