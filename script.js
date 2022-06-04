@@ -1,9 +1,11 @@
 const KEY = '4AdfF3j0LmZHkSHzAIoAjFei704GTxWDM3cJe2PL';
+const today = new Date();
+
+date.max = new Date().toLocaleDateString('en-ca');
 
 // this sets todays date as the default input
 window.addEventListener('load', () => {
   getAPOD();
-  const today = new Date();
   document.querySelector('input').value = `${today.getFullYear()}-${(
     today.getMonth() + 1
   )
