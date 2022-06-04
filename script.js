@@ -17,7 +17,6 @@ async function getAPOD() {
     `https://api.nasa.gov/planetary/apod?api_key=${KEY}` + "&date=" + date
   );
   let main = await data.json();
-  console.log(main);
   let img = document.querySelector("img");
   let vid = document.querySelector("iframe");
   if (main.media_type == "image") {
