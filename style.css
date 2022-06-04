@@ -32,6 +32,7 @@ h1 {
   aspect-ratio: 1/1;
   text-align: center;
   box-shadow: 0 10px 10px black;
+  margin-bottom: 25px;
 }
 
 img {
@@ -48,7 +49,7 @@ iframe {
 }
 
 input {
-  margin-top: 30px;
+  margin-top: 5px;
 }
 
 .btn {
