@@ -30,6 +30,3 @@ async function getAPOD() {
     vid.src = main.url;
   }
 }
-
-const button = document.querySelector(".btn");
-button.addEventListener("click", getAPOD);
