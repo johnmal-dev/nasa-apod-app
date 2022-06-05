@@ -1,0 +1,30 @@
+{
+  "name": "nasa-apod-app",
+  "version": "1.0.0",
+  "description": "An app that shows NASA's Astronomy Picture of the day (NASA APOD), also giving users the ability to view past photos based on date input.",
+  "main": "script.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnmal-dev/nasa-apod-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnmal-dev/nasa-apod-app/issues"
+  },
+  "homepage": "https://github.com/johnmal-dev/nasa-apod-app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "needle": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
