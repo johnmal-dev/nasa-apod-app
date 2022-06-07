@@ -44,7 +44,9 @@ _June 4, 2022 Update_
 
 1. Hiding the exposed API key.
     Hide API? Easy. Install `dotenv`, hide the key in a `.env` file, push to github-pages. Simple right? You have much to learn young padawan.
+    
     ![Yoda](yoda.jpeg)
+    
     My initial project was frontend only, allowing me to upload to either GitHub-pages or Netlify. But if I wanted to hide the key, my only option would be to create a backend where the hidden API key can be pulled from. And since a backend is now involved, gh-pages or Netlify are out of the question. Enter Heroku. Since I am still in the early stages of learning Express, this was a great opportunity to learn.
     Several Youtube tutorials and ~6 hours later, I succeeded in my task of hiding the API key!
     Some things I learned:
