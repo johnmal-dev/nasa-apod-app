@@ -15,5 +15,7 @@ app.use('/api', require('./routes'));
 
 // Enable cors
 app.use(cors());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
